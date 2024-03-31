@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lobster&display=swap');
+
+body {
+  font-family: 'Homemade Apple';
+  font-size: 2rem;
+  background: beige;
+}
+
+.container {
+  /*
+  background-image: url( "https://github.com/3in0/media/raw/master/files/paper.png" );
+  background-size: 100% 100%;
+  */
+  
+  background: white;
+  width: 60ch;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  box-shadow: 5px 5px 10px #aaa;
+}
+
+.line {
+  border-bottom: 1px solid #03a9f4;
+  height: 3rem;
+  position: relative;
+  padding-left: 0.5rem;
+
+}
+
+span {
+  color: #5452ad;
+  opacity: 0.9;
+}
+
+.line span {
+  
+  position: absolute;
+  bottom: -24px;
+  color: #5452ad;
+  opacity: 0.9;
+  
+}
+
+.right span {
+  right: 0.5rem;
+}
+
+.indent span {
+  left: 15ch;
+}
+
+.double-indent span {
+  left: 25ch;
+}
+* {
+box-sizing: border-box;
+border: 0;
+margin: 0;
+}
